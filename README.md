@@ -38,3 +38,15 @@
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E5%AE%8C%E6%88%90.JPG" width="500" height="100" />
 <br>
 * 錄製完成後會在剛剛 Scope 內出現此段程式碼，點 `F12` 可以看到完整的錄製程式
+
+####  7.執行測試
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E9%96%8B%E5%A7%8B.JPG" width="500" height="400" />
+<br>
+* 在剛剛 Scope 內點右鍵「執行測試」
+ 
+####  8.執行成功
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%9F%B7%E8%A1%8C%E6%88%90%E5%8A%9F.JPG" width="500" height="100" />
+<br>
+* 若成功可以看到綠色勾勾，若失敗則會出現 X ，點 X 會顯示錯誤訊息，通常錄製程式失敗都是抓不到畫面物件
+
+
