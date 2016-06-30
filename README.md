@@ -11,4 +11,4 @@
 
 此專案範例是使用 VS2013 版本，步驟如下
 ####  建立專案
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88.JPG" width="400" height="300" />
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88.JPG" width="500" height="400" />
