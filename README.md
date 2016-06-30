@@ -1,2 +1,1 @@
-# CsUITest
-UI Test &amp; Example
+# [UI Test]
