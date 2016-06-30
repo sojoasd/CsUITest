@@ -34,4 +34,7 @@
 <br>
 * 在欲錄製的畫面點選開始，如從簽核範本新增頁面開始錄製，**記得下次啟動時也要從這個畫面開始**
 
-
+####  6.錄製完成
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E5%AE%8C%E6%88%90.JPG" width="500" height="100" />
+<br>
+* 錄製完成後會在剛剛 Scope 內出現此段程式碼，點 `F12` 可以看到完整的錄製程式
