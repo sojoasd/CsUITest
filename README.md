@@ -29,5 +29,9 @@
 * 選取畫面的物件，如輸入框，目前 **Chrome 不適用**，而且不太好控制
 * 產生程式碼，一旦點選後會立即停止錄製
 
+####  5.開始錄製
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E9%96%8B%E5%A7%8B.JPG" width="500" height="280" />
+<br>
+* 在欲錄製的畫面點選開始，如從簽核範本新增頁面開始錄製，**記得下次啟動時也要從這個畫面開始**
 
 
