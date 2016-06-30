@@ -40,7 +40,7 @@
 * 錄製完成後會在剛剛 Scope 內出現此段程式碼，點 `F12` 可以看到完整的錄製程式
 
 ####  7.執行測試
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E9%96%8B%E5%A7%8B.JPG" width="500" height="400" />
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%96%8B%E5%A7%8B%E5%9F%B7%E8%A1%8C.JPG" width="500" height="380" />
 <br>
 * 在剛剛 Scope 內點右鍵「執行測試」
  
