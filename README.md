@@ -24,7 +24,10 @@
 ####  4.錄製器UI說明
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E5%99%A8UI.JPG" width="500" height="120" />
 <br>
-(1)開始/停止 
-(2)即時顯示錄製過程 
-(3)選取畫面的物件，如輸入框，目前 Chrome 不適用，而且不太好控制
-(4)產生程式碼，一旦點選後會立即停止錄製
+* 開始/停止
+* 即時顯示錄製過程
+* 選取畫面的物件，如輸入框，目前 **Chrome 不適用**，而且不太好控制
+* 產生程式碼，一旦點選後會立即停止錄製
+
+
+
