@@ -1,0 +1,4 @@
+E:\Workspaces\CsUITest\CodeUITest\bin\Debug\CodeUITest.dll
+E:\Workspaces\CsUITest\CodeUITest\bin\Debug\CodeUITest.pdb
+E:\Workspaces\CsUITest\CodeUITest\obj\Debug\CodeUITest.dll
+E:\Workspaces\CsUITest\CodeUITest\obj\Debug\CodeUITest.pdb
