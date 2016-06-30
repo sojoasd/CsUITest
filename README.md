@@ -14,4 +14,4 @@
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88.JPG" width="500" height="400" />
 
 ####  2.選取範圍
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%BB%BA%E7%AB%8B%E7%AF%84%E5%9C%8D.JPG" width="500" height="400" />
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%BB%BA%E7%AB%8B%E7%AF%84%E5%9C%8D.JPG" width="200" height="80" />
