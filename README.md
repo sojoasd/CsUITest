@@ -22,4 +22,4 @@
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%95%9F%E5%8B%95%E9%8C%84%E8%A3%BD%E5%99%A8.JPG" width="500" height="180" />
 
 ####  4.錄製器UI說明
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E5%99%A8UI.JPG" width="500" height="130" />
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%84%E8%A3%BD%E5%99%A8UI.JPG" width="500" height="120" />
