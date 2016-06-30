@@ -12,3 +12,4 @@
 此專案範例是使用 VS2013 版本，步驟如下
 ####  建立專案
 ![alt tag](https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88.JPG =100x20)
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%BB%BA%E7%AB%8B%E5%B0%88%E6%A1%88.JPG" width="100" height="400" />
