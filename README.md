@@ -59,7 +59,14 @@
 
 為何要客製程式?
 因若在操作上突然想再加入某個動作或是判斷，那又要大費周章的再錄一次，若能客製某段程式，只加入一小段動作或判斷才夠方便!
-這裡請參考檔案目錄為：/CodeUITest/UIMap.Designer.cs
+<br>
+** 這裡請參考檔案目錄為：/CodeUITest/UIMap.Designer.cs **
 
+####  1.找 HtmlDocument 物件
+此 HtmlDocument 物件是整個 UI 操作畫面所擷取的物件，透過此物件可以抓取畫面內的所有 Html Dom 物件
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEHtmlDocument.JPG" width="500" height="100" />
+<br>
+* 在開頭找很像的，若不確定他是否為 HtmlDocument 物件，則可以點 `F12` 來看，如下圖
 
+<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEHtmlDocument2.JPG" width="500" height="150" />
 
