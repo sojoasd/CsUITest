@@ -74,7 +74,10 @@
 ####  2.找 Html Dom 物件
 剛剛錄製的程式只停留在選完「是否設定條件」後的畫面，那這裡我們就繼續接下去，建立一個名為 Hello 的 Group，而為了要讓程式知道你點了哪個按鈕，輸入了什麼，這些都必須知道是哪些 Html 物件，此時我們需先知道這些 Html 物件的屬性，如下圖
 <br>
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEDom%E7%89%A9%E4%BB%B6.JPG" width="500" height="60" />
+```Html
+<input class="form-control" data-id="group-desc" data-type="multi"> <!-- 輸入框 -->
+<button class="btn btn-yellow" type="button" data-field="btnAddGroupBox"> <!-- 新增按鈕 -->
+```
 
 ####  3.開始客製程式
 剛剛已經取得「HtmlDocument 物件」、「Html Dom 屬性」，那我們透過 HtmlDocument 物件產生 Html Dom 物件來操作
