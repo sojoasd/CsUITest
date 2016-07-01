@@ -86,8 +86,9 @@
 
 ####  5.查看錯誤訊息
 若錯誤，會在主程式旁出現紅色 X ，如下圖
+<br>
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%AF%E8%AA%A4%E9%A1%AF%E7%A4%BA1.JPG" width="500" height="170" />
-
+<br>
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%AF%E8%AA%A4%E9%A1%AF%E7%A4%BA2.JPG" width="500" height="110" />
 <br>
 * 點開錯誤訊息會告訴你，程式預期是 Yahoo，但實際上你卻填了 Hello，最後是錯誤訊息「is not Yahoo」
