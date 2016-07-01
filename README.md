@@ -98,3 +98,6 @@
 <br>
 * 點開錯誤訊息會告訴你，程式預期是 Yahoo，但實際上你卻填了 Hello，最後是錯誤訊息「is not Yahoo」
 
+```C#
+string[] ary1 = str1.Split(',');
+```
