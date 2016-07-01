@@ -124,6 +124,7 @@ namespace CodeUITest
             string CusDefInput = string.Format("{0}=\"{1}\"", "data-id", "group-desc");
             InputGroupName.SearchProperties.Add(new PropertyExpression(HtmlControl.PropertyNames.ControlDefinition, CusDefInput, PropertyExpressionOperator.Contains));
             InputGroupName.Text = "Hello";
+            Assert.AreEqual("Yahoo", InputGroupName.Text, "is not Yahoo");
             Playback.Wait(1000);
 
             //產生新增按鈕物件
