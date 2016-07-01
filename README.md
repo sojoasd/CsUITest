@@ -8,7 +8,10 @@
 
 ## 一、教學影片
 
-[連結點](https://www.youtube.com/watch?v=WRRpXT8yxMI)
+* 錄製器操作：[連結點](https://www.youtube.com/watch?v=WRRpXT8yxMI)
+* 錄製程式撰寫：[連結點](https://www.youtube.com/watch?v=MU7mmfQjOis)
+                [連結點](https://www.youtube.com/watch?v=QeQ4Lg56LHU)
+                [連結點](https://www.youtube.com/watch?v=NGZjQBe6NwY)
 
 ## 二、自動錄製
 
