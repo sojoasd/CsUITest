@@ -71,7 +71,7 @@
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEHtmlDocument2.JPG" width="500" height="150" />
 
 ####  2.找 Html Dom 物件
-剛剛錄製的程式只選完「是否設定條」為是後的畫面，那這裡我們就繼續接下去，建立一個名為 Hello 的 Group，而為了要讓程式知道你點了哪個按鈕，輸入了什麼，這些都必須知道是哪些 Html 物件，此時我們需先知道這些 Html 物件的屬性，如下圖
+剛剛錄製的程式只停留在選完「是否設定條件」後的畫面，那這裡我們就繼續接下去，建立一個名為 Hello 的 Group，而為了要讓程式知道你點了哪個按鈕，輸入了什麼，這些都必須知道是哪些 Html 物件，此時我們需先知道這些 Html 物件的屬性，如下圖
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEDom%E7%89%A9%E4%BB%B6.JPG" width="500" height="60" />
 
 ####  3.開始客製程式
