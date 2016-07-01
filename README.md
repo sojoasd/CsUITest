@@ -64,6 +64,7 @@
 
 ####  1.找 HtmlDocument 物件
 此 HtmlDocument 物件是整個 UI 操作畫面所擷取的物件，透過此物件可以抓取畫面內的所有 Html Dom 物件，等等會用到
+<br>
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEHtmlDocument.JPG" width="500" height="100" />
 <br>
 * 在開頭找很像的，若不確定他是否為 HtmlDocument 物件，則可以點 `F12` 來看，如下圖
@@ -72,10 +73,12 @@
 
 ####  2.找 Html Dom 物件
 剛剛錄製的程式只停留在選完「是否設定條件」後的畫面，那這裡我們就繼續接下去，建立一個名為 Hello 的 Group，而為了要讓程式知道你點了哪個按鈕，輸入了什麼，這些都必須知道是哪些 Html 物件，此時我們需先知道這些 Html 物件的屬性，如下圖
+<br>
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEDom%E7%89%A9%E4%BB%B6.JPG" width="500" height="60" />
 
 ####  3.開始客製程式
 剛剛已經取得「HtmlDocument 物件」、「Html Dom 屬性」，那我們透過 HtmlDocument 物件產生 Html Dom 物件來操作
+<br>
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%AE%A2%E8%A3%BD%E7%A8%8B%E5%BC%8F.JPG" width="500" height="110" />
 <br>
 * 紅色勾勾是將屬性字串抽出來做，上面是輸入框，下面則是新增按鈕
@@ -83,6 +86,7 @@
 
 ####  4.加入錯誤判斷程式
 利用剛剛客製的程式中加入輸入框的判斷，預計要輸入「Yahoo」，若輸入的是「Hello」則會出錯，程式如下圖
+<br>
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%AF%E8%AA%A4%E5%88%A4%E6%96%B7.JPG" width="500" height="100" />
 
 ####  5.查看錯誤訊息
