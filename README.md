@@ -65,14 +65,29 @@
 ####  1.找 HtmlDocument 物件
 此 HtmlDocument 物件是整個 UI 操作畫面所擷取的物件，透過此物件可以抓取畫面內的所有 Html Dom 物件，等等會用到
 <br>
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEHtmlDocument.JPG" width="500" height="100" />
+```C#
+public partial class UIMap
+{
+   public void RecordedMethod1()
+   {
+       HtmlEdit uI簽核流程名稱Edit = this.UI簽核流程範本管理新增InternetExWindow.<span style="color:red">UI簽核流程範本管理新增Document</span>.UI簽核流程名稱Edit;
+       
+       //已下省略.....
+   }
+}
+```
 <br>
-* 在開頭找很像的，若不確定他是否為 HtmlDocument 物件，則可以點 `F12` 來看，如下圖
+* 在開頭找很像的，若不確定他是否為 HtmlDocument 物件，則可以點 `F12` 來看，如下段程式碼
 
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E6%89%BEHtmlDocument2.JPG" width="500" height="150" />
+```C#
+public class UI簽核流程範本管理新增Document : HtmlDocument
+{
+   //設定屬性.............
+}
+```
 
 ####  2.找 Html Dom 物件
-剛剛錄製的程式只停留在選完「是否設定條件」後的畫面，那這裡我們就繼續接下去，建立一個名為 Hello 的 Group，而為了要讓程式知道你點了哪個按鈕，輸入了什麼，這些都必須知道是哪些 Html 物件，此時我們需先知道這些 Html 物件的屬性，如下圖
+剛剛錄製的程式只停留在選完「是否設定條件」後的畫面，那這裡我們就繼續接下去，建立一個名為 Hello 的 Group，而為了要讓程式知道你點了哪個按鈕，輸入了什麼，這些都必須知道是哪些 Html 物件，此時我們需先知道這些 Html 物件的屬性，如下面的 Html
 <br>
 ```Html
 <input class="form-control" data-id="group-desc" data-type="multi"> <!-- 輸入框 -->
