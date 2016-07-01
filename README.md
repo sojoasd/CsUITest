@@ -9,9 +9,9 @@
 ## 一、教學影片
 
 * 錄製器操作：[連結點](https://www.youtube.com/watch?v=WRRpXT8yxMI)
-* 錄製程式撰寫：[連結點](https://www.youtube.com/watch?v=MU7mmfQjOis)
-                [連結點](https://www.youtube.com/watch?v=QeQ4Lg56LHU)
-                [連結點](https://www.youtube.com/watch?v=NGZjQBe6NwY)
+* 錄製程式撰寫：[連結點1](https://www.youtube.com/watch?v=MU7mmfQjOis)
+                [連結點2](https://www.youtube.com/watch?v=QeQ4Lg56LHU)
+                [連結點3](https://www.youtube.com/watch?v=NGZjQBe6NwY)
 
 ## 二、自動錄製
 
@@ -56,4 +56,6 @@
 * 若成功可以看到綠色勾勾，若失敗則會出現 X ，點 X 會顯示錯誤訊息，通常錄製程式失敗都是抓不到畫面物件
 
 ## 三、客製錄製程式碼
+
+為何要客製程式?
 
