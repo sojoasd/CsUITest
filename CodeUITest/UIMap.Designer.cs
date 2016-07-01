@@ -23,7 +23,20 @@ namespace CodeUITest
     using Keyboard = Microsoft.VisualStudio.TestTools.UITesting.Keyboard;
     using Mouse = Microsoft.VisualStudio.TestTools.UITesting.Mouse;
     using MouseButtons = System.Windows.Forms.MouseButtons;
-    
+
+    public class NewUIHtmlDocument : HtmlDocument
+    {
+
+        public NewUIHtmlDocument(UITestControl searchLimitContainer) :
+            base(searchLimitContainer)
+        {
+            #region 搜尋準則
+            this.FilterProperties[HtmlDocument.PropertyNames.AbsolutePath] = "/SignFlow/SignFlowTemplate/Create";
+            this.FilterProperties[HtmlDocument.PropertyNames.PageUrl] = "http://172.16.2.90:82/SignFlow/SignFlowTemplate/Create";
+            this.WindowTitles.Add("簽核流程範本管理-新增");
+            #endregion
+        }
+    }
     
     [GeneratedCode("自動程式碼 UI 測試產生器", "12.0.31101.0")]
     public partial class UIMap
@@ -101,6 +114,20 @@ namespace CodeUITest
 
             // 按一下 '簽核流程設定' 窗格
             Mouse.Click(uI簽核流程設定Pane, new Point(1306, 23));
+
+            //客製程式
+            HtmlDocument UIBrowser = this.UI簽核流程範本管理新增InternetExWindow.UI簽核流程範本管理新增Document;
+
+            HtmlEdit InputGroupName = new HtmlEdit(UIBrowser);
+            string CusDefInput = string.Format("{0}=\"{1}\"", "data-id", "group-desc");
+            InputGroupName.SearchProperties.Add(new PropertyExpression(HtmlControl.PropertyNames.ControlDefinition, CusDefInput, PropertyExpressionOperator.Contains));
+            InputGroupName.Text = "Hello";
+            Playback.Wait(1000);
+
+            HtmlButton AddGroupBtn = new HtmlButton(UIBrowser);
+            string CusDefButton = string.Format("{0}=\"{1}\"", "data-field", "btnAddGroupBox");
+            AddGroupBtn.SearchProperties.Add(new PropertyExpression(HtmlControl.PropertyNames.ControlDefinition, CusDefButton, PropertyExpressionOperator.Contains));
+            Mouse.Click(AddGroupBtn);
         }
         
         #region Properties
