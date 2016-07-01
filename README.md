@@ -79,9 +79,24 @@
 ####  3.開始客製程式
 剛剛已經取得「HtmlDocument 物件」、「Html Dom 屬性」，那我們透過 HtmlDocument 物件產生 Html Dom 物件來操作
 <br>
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%AE%A2%E8%A3%BD%E7%A8%8B%E5%BC%8F.JPG" width="500" height="110" />
-<br>
-* 紅色勾勾是將屬性字串抽出來做，上面是輸入框，下面則是新增按鈕
+```C#
+//建立 HtmlDocument 物件，讓命名好看一點
+HtmlDocument UIBrowser = this.UI簽核流程範本管理新增InternetExWindow.UI簽核流程範本管理新增Document;
+
+//產生輸入框物件
+HtmlEdit InputGroupName = new HtmlEdit(UIBrowser);
+string CusDefInput = string.Format("{0}=\"{1}\"", "data-id", "group-desc");
+InputGroupName.SearchProperties.Add(new PropertyExpression(HtmlControl.PropertyNames.ControlDefinition, CusDefInput, PropertyExpressionOperator.Contains));
+InputGroupName.Text = "Hello";
+Playback.Wait(1000);
+
+//產生新增按鈕物件
+HtmlButton AddGroupBtn = new HtmlButton(UIBrowser);
+string CusDefButton = string.Format("{0}=\"{1}\"", "data-field", "btnAddGroupBox");
+AddGroupBtn.SearchProperties.Add(new PropertyExpression(HtmlControl.PropertyNames.ControlDefinition, CusDefButton, PropertyExpressionOperator.Contains));
+Mouse.Click(AddGroupBtn);
+```
+* 上面是輸入框，下面則是新增按鈕
 * 此處要用這樣特殊的寫法是因為輸入框與按鈕是動態產生的，不是原本頁面就有的，若用教學影片的程式碼會抓不到 Dom 物件
 
 ####  4.加入錯誤判斷程式
@@ -90,7 +105,6 @@
 ```C#
 Assert.AreEqual("Yahoo", InputGroupName.Text, "is not Yahoo");
 ```
-<img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E9%8C%AF%E8%AA%A4%E5%88%A4%E6%96%B7.JPG" width="500" height="100" />
 
 ####  5.查看錯誤訊息
 若錯誤，會在主程式旁出現紅色 X ，如下圖
