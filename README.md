@@ -79,6 +79,7 @@
 <img src="https://github.com/sojoasd/CsUITest/blob/master/CodeUITest/Image/%E5%AE%A2%E8%A3%BD%E7%A8%8B%E5%BC%8F.JPG" width="500" height="110" />
 <br>
 * 紅色勾勾是將屬性字串抽出來做，上面是輸入框，下面則是新增按鈕
+* 此處要用這樣特殊的寫法是因為輸入框與按鈕是動態產生的，不是原本頁面就有的，若用教學影片的程式碼會抓不到 Dom 物件
 
 ####  4.加入錯誤判斷程式
 利用剛剛客製的程式中加入輸入框的判斷，預計要輸入「Yahoo」，若輸入的是「Hello」則會出錯，程式如下圖
