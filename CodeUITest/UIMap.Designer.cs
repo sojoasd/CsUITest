@@ -116,14 +116,17 @@ namespace CodeUITest
             Mouse.Click(uI簽核流程設定Pane, new Point(1306, 23));
 
             //客製程式
+            //建立 HtmlDocument 物件，讓命名好看一點
             HtmlDocument UIBrowser = this.UI簽核流程範本管理新增InternetExWindow.UI簽核流程範本管理新增Document;
 
+            //產生輸入框物件
             HtmlEdit InputGroupName = new HtmlEdit(UIBrowser);
             string CusDefInput = string.Format("{0}=\"{1}\"", "data-id", "group-desc");
             InputGroupName.SearchProperties.Add(new PropertyExpression(HtmlControl.PropertyNames.ControlDefinition, CusDefInput, PropertyExpressionOperator.Contains));
             InputGroupName.Text = "Hello";
             Playback.Wait(1000);
 
+            //產生新增按鈕物件
             HtmlButton AddGroupBtn = new HtmlButton(UIBrowser);
             string CusDefButton = string.Format("{0}=\"{1}\"", "data-field", "btnAddGroupBox");
             AddGroupBtn.SearchProperties.Add(new PropertyExpression(HtmlControl.PropertyNames.ControlDefinition, CusDefButton, PropertyExpressionOperator.Contains));
