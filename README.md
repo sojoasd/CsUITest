@@ -70,7 +70,7 @@ public partial class UIMap
 {
    public void RecordedMethod1()
    {
-       HtmlEdit uI簽核流程名稱Edit = this.UI簽核流程範本管理新增InternetExWindow.<span style="color:red">UI簽核流程範本管理新增Document</span>.UI簽核流程名稱Edit;
+       HtmlEdit uI簽核流程名稱Edit = this.UI簽核流程範本管理新增InternetExWindow.UI簽核流程範本管理新增Document.UI簽核流程名稱Edit;
        
        //已下省略.....
    }
